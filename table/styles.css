@@ -1,0 +1,117 @@
+:root {
+    --blue: #257fa4; /*rgb(37, 127, 164)*/
+    --blue-p: #9bc3d3; /*rgb(155, 195, 211)*/
+    --blue-s: #f9fcfd; /*rgb(249, 252, 253)*/
+    --gray: #ececec; /*rgb(236, 236, 236)*/
+    --white: #ffffff; /*rgb(255, 255, 255)*/
+    --red: #ec0000; /*rgb(236, 0, 0)*/
+}
+
+.content-table {
+    background-color: white;
+    padding: 20px;
+}
+
+table.table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+table.table caption {
+    font-size: small;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+table.table thead tr {
+    background-color: var(--gray);
+    text-transform: capitalize;
+}
+
+table.table thead tr div {
+    align-items: center;
+    display: flex;
+}
+
+table.table thead tr svg {
+    fill: var(--blue);
+    height: 24px;
+    width: 24px;
+}
+
+table.table thead tr, table.table tbody tr {
+    border-bottom: 1px solid var(--blue-p);
+}
+
+table.table tbody tr:nth-child(odd) {
+    background-color: var(--white);
+}
+
+table.table tbody tr:nth-child(even) {
+    background-color: var(--blue-s);
+}
+
+table.table tbody tr:hover {
+    background-color: var(--blue-p);
+}
+
+table.table th,
+table.table td {
+    padding: 15px;
+    padding-left: 20px;
+}
+
+table.table tfoot tr th {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.table-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.table-footer select {
+    border-color: #9bc3d3;
+    border-bottom-color: #257fa4;
+    border-radius: 2px 2px 0 0;
+    padding: 5px 10px;
+}
+
+.table-footer aside {
+    /* align-items: center; */
+    column-gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-footer aside p {
+    font-weight: 400;
+}
+
+.table-footer aside ul {
+    list-style: none;
+}
+
+.table-footer aside ul li {
+    display: inline-block;
+}
+
+.table-footer aside ul li button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2.5px;
+    text-transform: uppercase;
+}
+
+.table-footer aside ul li.active button {
+    font-weight: 600;
+}
+
+.table-footer aside ul li button.red{
+    color: var(--red)
+}
