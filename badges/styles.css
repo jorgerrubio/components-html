@@ -1,0 +1,49 @@
+:root {
+    --default: #767676;
+    --default-o: #ececec;
+    --primary: #ec0000;
+    --primary-o: #ecd7e1;
+    --info: #7094ff;
+    --info-o: #c2d1ff;
+    --warning: #ffcc33;
+    --warning-o: #fffaeb;
+    --success: #63ba68;
+    --success-o: #e0f2e1;
+}
+.content-page {
+    background-color: #eaeaea;
+    padding: 20px;
+}
+
+.content-page > div {
+    margin-right: 10px;
+}
+
+.badge {
+    background-color: var(--default-o);
+    border: 1px solid var(--default);
+    border-radius: 25px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 5px 25px;
+}
+
+.badge.primary {
+    background-color: var(--primary-o);
+    border-color: var(--primary);
+}
+
+.badge.success {
+    background-color: var(--success-o);
+    border-color: var(--success);
+}
+
+.badge.info {
+    background-color: var(--info-o);
+    border-color: var(--info);
+}
+
+.badge.warning {
+    background-color: var(--warning-o);
+    border-color: var(--warning);
+}
