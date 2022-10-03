@@ -1,0 +1,43 @@
+:root {
+    --size: 2rem;
+    --on-color: 6, 148, 6;
+    --off-color: 236, 0, 0;
+    --front-color: 238, 238, 238;
+    --transition: all .3s;
+}
+
+.toggle-button {
+    display: none;
+}
+
+.toggle-button + label {
+    background-color: rgba(var(--off-color), .5);
+    border-radius: calc(var(--size) / 2);
+    box-shadow: 0 0 0 2px rgba(var(--front-color), .3);
+    display: block;
+    height: var(--size);
+    transition: var(--transition);
+    width: calc(var(--size) * 2);
+}
+
+.toggle-button + label::before {
+    background-color: rgb(var(--off-color));
+    border: 1px solid rgba(var(--front-color), .5);
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: calc(var(--size) - 2px);
+    left: 0;
+    position: relative;
+    transition: var(--transition);
+    width: calc(var(--size) - 2px);
+}
+
+.toggle-button:checked + label {
+    background-color: rgba(var(--on-color), .5);
+}
+
+.toggle-button:checked + label::before {
+    background-color: rgb(var(--on-color));
+    left: var(--size);
+}
