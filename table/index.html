@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components - table</title>
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <aside>
+        <nav>
+            <ul class="navbar">
+                <li class="navbar-item">
+                    <a href="../">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="../buttons">Buttons</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="../toggle">Toggle</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <h1 class="title">Table</h1>
+    </section>
+    <section class="content-table">
+        <table class="table">
+            <caption>Description of table</caption>
+
+            <thead>
+                <tr>
+                    <th>
+                        <div>
+                            <span>title 1</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path d="M18.05,17.79a1,1,0,0,0-1.42,0L13,21.42V1a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1V21.41L7.38,17.79A1,1,0,1,0,6,19.2l3.92,3.92a3,3,0,0,0,4.24,0l3.92-3.92A1,1,0,0,0,18.05,17.79Z"/></svg>
+                        </div>
+                    </th>
+                    <th>
+                        <div><span>title 2</span></div>
+                    </th>
+                    <th>
+                        <div><span>title 3</span></div>
+                    </th>
+                    <th>
+                        <div><span>title 4</span></div>
+                    </th>
+                    <th>
+                        <div><span>title 5</span></div>
+                    </th>
+                    <th>
+                        <div><span>title 6</span></div>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                    <td>content 6</td>
+                </tr>
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                    <td>content 6</td>
+                </tr>
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                    <td>content 6</td>
+                </tr>
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                    <td>content 6</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="6">
+                        <div class="table-footer">
+                            <div>
+                                <select name="items" id="items">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="40">40</option>
+                                    <option value="50">50</option>
+                                </select>
+                            </div>
+                            <aside>
+                                <p>1 to 10 of <strong>999 Items</strong></p>
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <button class="red">
+                                                < Prev
+                                            </button>
+                                        </li>
+                                        <li class="active"><button>1</button></li>
+                                        <li><button>2</button></li>
+                                        <li><button>3</button></li>
+                                        <li><button>4</button></li>
+                                        <li><button>5</button></li>
+                                        <li>
+                                            <button class="red">
+                                                next >
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </aside>
+                        </div>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+
+</html>
