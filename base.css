@@ -15,4 +15,33 @@ body {
 
 .content {
     color: white;
+    margin-top: 30px;
+}
+
+nav ul.navbar {
+    background-color: #cecece;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul.navbar li.navbar-item {
+    display: inline;
+}
+
+nav ul.navbar li.navbar-item a {
+    border-right: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul.navbar li.navbar-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+h1.title {
+    color: white;
+    padding: 20px 0;
 }

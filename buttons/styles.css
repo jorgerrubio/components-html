@@ -1,0 +1,152 @@
+:root {
+    --black: #000000;
+    --blue: #3498d8;
+    --green: #62cb31;
+    --pink: #ef3c82;
+    --purple: #9859b6;
+    --red: #ec0000;
+    --white: #ffffff;
+    --yellow: #feb506;
+}
+
+.items {
+    margin: 20px 0;
+}
+
+.items a, .items button {
+    margin-right: 10px;
+}
+
+.btn {
+    border: 1px solid transparent;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 20px;
+    transition: color .5s, background .5s;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--black);
+}
+
+.btn:active {
+    box-shadow: inset 0 0 10px;
+}
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.btn.outline {
+    background-color: var(--black);
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.btn.outline:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.btn.round {
+    border-radius: 30px;
+}
+
+.btn.blue {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: var(--white);
+}
+
+.btn.outline.blue {
+    background-color: var(--black);
+    color: var(--blue);
+}
+
+.btn.blue:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.btn.green {
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--white);
+}
+
+.btn.outline.green {
+    background-color: var(--black);
+    color: var(--green);
+}
+
+.btn.green:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+
+.btn.pink {
+    background-color: var(--pink);
+    border-color: var(--pink);
+    color: var(--white);
+}
+
+.btn.outline.pink {
+    background-color: var(--black);
+    color: var(--pink);
+}
+
+.btn.pink:hover {
+    background-color: var(--white);
+    color: var(--pink);
+}
+
+.btn.purple {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    color: var(--white);
+}
+
+.btn.outline.purple {
+    background-color: var(--black);
+    color: var(--purple);
+}
+
+.btn.purple:hover {
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+.btn.red {
+    background-color: var(--red);
+    border-color: var(--red);
+    color: var(--white);
+}
+
+.btn.outline.red {
+    background-color: var(--black);
+    color: var(--red);
+}
+
+.btn.red:hover {
+    background-color: var(--white);
+    color: var(--red);
+}
+
+.btn.yellow {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: var(--white);
+}
+
+.btn.outline.yellow {
+    background-color: var(--black);
+    color: var(--yellow);
+}
+
+.btn.yellow:hover {
+    background-color: var(--white);
+    color: var(--yellow);
+}
