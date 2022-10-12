@@ -1,0 +1,30 @@
+button.btn-bars {
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .65rem;
+    height: 2.2rem;
+    width: 2.2rem;
+}
+
+button.btn-bars div {
+    background: white;
+    border-radius: 5px;
+    height: 2px;
+    transform-origin: left;
+    transition: all .5s;
+    width: 100%;
+}
+
+button.btn-bars:hover div:first-child {
+    transform: rotate(45deg);
+}
+
+button.btn-bars:hover div:nth-child(2) {
+    opacity: 0;
+}
+
+button.btn-bars:hover div:last-child {
+    transform: rotate(-45deg);
+}
