@@ -1,0 +1,12 @@
+.card__flex {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.card__flex  .card__item {
+    flex-basis: 17.5rem;
+    flex-grow: 1;
+}

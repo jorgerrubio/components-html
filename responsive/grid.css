@@ -1,0 +1,11 @@
+.card__grid {
+    display: grid;
+    gap: 3em;
+    grid-auto-flow: dense;
+    grid-auto-rows: 25rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+}
+
+.card__grid  .card__item {
+    grid-column: span 1;
+}
