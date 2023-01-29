@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Components - Bars</title>
+    <title>Components - Modal</title>
     <link rel="stylesheet" href="../base.css">
     <link rel="stylesheet" href="./styles.css">
+    <script></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                 <a href="../buttons">Buttons</a>
             </li>
             <li class="navbar-item">
-                <a href="../modal">Modal</a>
+                <a href="../button_bars">Button bars</a>
             </li>
             <li class="navbar-item">
                 <a href="../responsive">Responsive Cards</a>
@@ -40,14 +41,24 @@
         </ul>
     </nav>
     <section>
-        <h1 class="title">Button Bars</h1>
-        <div>
-            <button class="btn-bars">
-                <div></div>
-                <div></div>
-                <div></div>
-            </button>
-        </div>
+        <h1 class="title">Modal</h1>
+
+        <dialog>
+            <div>
+                <h1>This is a modal</h1>
+                <p>made in html</p>
+                <button id="close_modal" class="btn">
+                    Close
+                </button>
+            </div>
+        </dialog>
+
+
+        <button id="open_modal" class="btn">
+            open modal
+        </button>
+
+        <script type="text/javascript" src="./script.js"></script>
     </div>
 </body>
 
