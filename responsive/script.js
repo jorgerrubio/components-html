@@ -1,3 +1,5 @@
+createMenu();
+
 const btn = document.getElementById("change_theme")
 btn.addEventListener("click", (e) => {
     const cardContent = document.getElementsByClassName("card").item(0)

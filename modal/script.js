@@ -1,3 +1,5 @@
+createMenu();
+
 const dialog = document.querySelector('dialog');
 const close = document.querySelector('#close_modal');
 const open = document.querySelector('#open_modal');
