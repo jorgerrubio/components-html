@@ -1,0 +1,13 @@
+.box-input {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2rem;
+    width: fit-content;
+}
+
+.box-input input {
+    border-radius: 0.312rem;
+    display: block;
+    margin-top: 0.312rem;
+    padding: 0.625rem;
+}

@@ -17,13 +17,13 @@
                 <a href="../">Home</a>
             </li>
             <li class="navbar-item">
-                <a href="../autocomplete">Autocomplete</a>
-            </li>
-            <li class="navbar-item">
                 <a href="../badges">Badge</a>
             </li>
             <li class="navbar-item">
                 <a href="../buttons">Buttons</a>
+            </li>
+            <li class="navbar-item">
+                <a href="../button_bars">Button bars</a>
             </li>
             <li class="navbar-item">
                 <a href="../responsive">Responsive Cards</a>
@@ -37,13 +37,17 @@
         </ul>
     </nav>
     <section>
-        <h1 class="title">Button Bars</h1>
-        <div>
-            <button class="btn-bars">
-                <div></div>
-                <div></div>
-                <div></div>
-            </button>
+        <h1 class="title">Autocomplete</h1>
+
+        <div class="box-input">
+            <label for="autocomplete">Frameworks</label>
+            <input type="text" list="list-frameworks" name="autocomplete">
+            <datalist id="list-frameworks">
+                <option value="Angular" />
+                <option value="React" />
+                <option value="Vue" />
+                <option value="Svelte" />
+            </datalist>
         </div>
     </div>
 </body>
